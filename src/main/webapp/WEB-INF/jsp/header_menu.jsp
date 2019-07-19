@@ -15,9 +15,12 @@
                 <ul class="nav navbar-nav">
                     
                     <li>
-                        <a href="/clientjerseyrest">Admin persons Jersey REST</a>
+                        <a href="/clientrestangular">Show persons / AngularJS / Jersey REST</a>
                     </li>
 
+                    <li>
+                        <a href="/clientjerseyrest">Admin persons / jQuery/ Jersey REST</a>
+                    </li>
 
                    <li>
                         <a href="/demo/mvclistpersons">Admin persons MVC</a>

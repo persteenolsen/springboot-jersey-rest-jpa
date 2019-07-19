@@ -28,17 +28,13 @@
 
 
 	<div class="header-text" >${welcomemessage}</div>
+	
+	<br>
 
-	
-	
 	<div class="body-text" >${memorymessage}</div>
-
+	
 	<br>
-	Take a look at the Web application by using one of the menu items "Admin persons Jersey REST" or
-	"Admin persons MVC".
-	<br>
-	<br>
-
+	
 	<b>Note:</b> The Web applications 1-2 minutes initial load time is because I am using
 	a <br><i>Free App Service Plan at Microsoft Azure</i><br> 
 	because the work is for demonstration and testing purposes only!

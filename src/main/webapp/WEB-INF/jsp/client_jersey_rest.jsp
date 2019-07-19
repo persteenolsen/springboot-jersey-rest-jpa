@@ -4,7 +4,7 @@
 
 <html lang="en">
 <head>
-	<title>A  Java Spring Boot JAX-RS Jersey REST JPA Web application</title>
+	<title>A Java Spring Boot JAX-RS Jersey REST JPA Web application</title>
 	
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
