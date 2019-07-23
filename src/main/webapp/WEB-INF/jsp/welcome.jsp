@@ -64,7 +64,7 @@
 	</ul>
 
 	<ul>
-		<li>A consuming jQuery REST API Client in a JSP file for the View part ( GUI )</li>
+		<li>ReactJS, AngularJS, jQuery REST API Clients in JSP files for the View part ( GUI )</li>
 		<li>Bootstrap for the responsive design</li>
 	</ul>
 	

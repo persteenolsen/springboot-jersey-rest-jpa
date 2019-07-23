@@ -15,11 +15,15 @@
                 <ul class="nav navbar-nav">
                     
                     <li>
-                        <a href="/clientrestangular">Show persons / AngularJS / Jersey REST</a>
+                        <a href="/clientrestreact">Show persons / ReactJS / REST</a>
                     </li>
 
                     <li>
-                        <a href="/clientjerseyrest">Admin persons / jQuery/ Jersey REST</a>
+                        <a href="/clientrestangular">Show persons / AngularJS / REST</a>
+                    </li>
+
+                    <li>
+                        <a href="/clientjerseyrest">Admin persons / jQuery / REST</a>
                     </li>
 
                    <li>
