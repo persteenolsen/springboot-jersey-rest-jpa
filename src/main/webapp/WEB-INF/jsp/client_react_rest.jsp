@@ -17,6 +17,31 @@
 	<style>
 		.header-text { Color: Green; font-family: Verdana, sans-serif; font-size: 14pt}
 		.body-content { margin-left: 10pt; margin-right: 10pt; font-family: Verdana, sans-serif}
+
+
+         #title {
+                 text-align: center;
+                 font-family: Verdana, sans-serif;
+                }
+
+         #persons {
+                  text-align: center;
+                  font-family: "Verdana, sans-serif";
+                  font-size: 14pt;
+                  border-collapse: collapse;
+                  border: 3px solid #ddd;
+                  width: 100%;
+                  }
+
+         #persons td, #persons th {
+                   border: 1px solid #ddd;
+                   padding: 8px;
+                  }
+
+        #persons tr:nth-child(even){background-color: #f2f2f2;}
+
+        #persons tr:hover {background-color: #ddd; cursor: pointer;}
+
 	</style>
 
 </head>

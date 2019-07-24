@@ -31,17 +31,38 @@ class GetPersons extends React.Component {
     render() {
 
         return (
+           
             <div>
-                <div><b>Name Email Age</b></div>
-                {this.state.persons.map(person =>
-                    <div key={person.id}> {person.name} {person.email} {person.age}  </div>)}
+             <table id="persons" width="250">
+                             
+               <tbody>
+               <tr><td><b>Name</b></td><td><b>Email</b></td><td><b>Age</b></td></tr>
+                                    
+                   {this.state.persons.map((person, i) => <TableRow key = {i} 
+                     persons = {person} />)}
+
+               </tbody>
+            </table>
             </div>
+
         );
     }
 
 
 }
 
+class TableRow extends React.Component {
+   render() {
+      return (
+         <tr>
+            
+            <td>{this.props.persons.name}</td>
+            <td>{this.props.persons.email}</td>
+            <td>{this.props.persons.age}</td>
+         </tr>
+      );
+   }
+}
 
 ReactDOM.render(
     <GetPersons />,
