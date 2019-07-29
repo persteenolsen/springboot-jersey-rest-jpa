@@ -57,10 +57,10 @@
 	<div class="body-content">
      
 
-	<div class="header-text" >${messageclientreactrest}</div>
+	<div class="header-text" >${messageclientreactcreaterest}</div>
     
     <br>
-    Getting the Persons by a ReactJS client and the Jersey Rest Web API
+    Create a Persons by a ReactJS client and the Jersey Rest Web API
     <br><br>
     
 
@@ -75,7 +75,7 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
 
 
-   <script type="text/babel" src="react/getpersonsreact.jsx" data-presets="es2015,react">
+   <script type="text/babel" src="react/createpersonreact.jsx" data-presets="es2015,react">
    </script>
 
     

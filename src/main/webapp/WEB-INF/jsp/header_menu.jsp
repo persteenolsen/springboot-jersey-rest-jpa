@@ -14,21 +14,26 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     
+                   
+                    <li>
+                        <a href="/clientrestangular">Show persons / AngularJS / REST</a>
+                    </li>
+                    
                     <li>
                         <a href="/clientrestreact">Show persons / ReactJS / REST</a>
                     </li>
-
+                    
                     <li>
-                        <a href="/clientrestangular">Show persons / AngularJS / REST</a>
+                        <a href="/clientrestreactlist">Admin persons / ReactJS / REST</a>
                     </li>
 
                     <li>
                         <a href="/clientjerseyrest">Admin persons / jQuery / REST</a>
                     </li>
 
-                   <li>
+                  <!-- <li>
                         <a href="/demo/mvclistpersons">Admin persons MVC</a>
-                    </li>
+                    </li>-->
                        
                     <li><a href="/welcome">About this application</a></li>
                    

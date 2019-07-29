@@ -42,6 +42,9 @@
                   }
 
         #persons tr:nth-child(even){background-color: #f2f2f2;}
+        
+        #persons tr:first-child {color: green; background-color:white }
+        #persons tr:first-child:hover {color: green; background-color: white; cursor:default;}
 
         #persons tr:hover {background-color: #ddd; cursor: pointer;}
 	</style>
