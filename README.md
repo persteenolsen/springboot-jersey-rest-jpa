@@ -13,5 +13,5 @@ This Java Spring Boot JAX-RS Jersey REST JPA Web application was made by the fol
 - Maven as build tool
 - JPA implmented by Hibernate for initializing the Database and mapping oblects to Database fields
 - Hibernate Validator and Apache Commons Validater for server side form validation
-- A consuming jQuery REST API Client in a JSP file for the View part ( GUI )
+- ReactJS, AngularJS and jQuery REST API Clients in JSP files for the View part ( GUI )
 - Bootstrap for the responsive design
