@@ -36,7 +36,7 @@ class GetPersonsList extends React.Component {
              <a href="/clientrestreactcreate" target="_top">Create a new Person</a>
              <br/> <br/>    
 
-             <table id="persons" width="250">
+             <table id="persons">
        
                <tbody>
                   <tr><td><b>Name</b></td><td><b>Email</b></td><td><b>Age</b></td><td></td></tr>
@@ -63,9 +63,10 @@ class TableRow extends React.Component {
             <td>{this.props.persons.email}</td>
             <td>{this.props.persons.age}</td>
             
-           <td><button onClick={this.editPerson.bind(this, this.props.persons.id)}>Edit</button>
-           &nbsp;&nbsp;
-           <button onClick={this.deletePerson.bind(this, this.props.persons.id)}>Delete</button></td>
+           <td>
+               <button className="react-button-edit" onClick={this.editPerson.bind(this, this.props.persons.id)}>Edit</button>
+               <button className="react-button-delete" onClick={this.deletePerson.bind(this, this.props.persons.id)}>Delete</button>
+           </td>
          
          </tr>
       )

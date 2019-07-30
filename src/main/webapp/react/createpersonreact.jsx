@@ -58,25 +58,46 @@ class CreatePerson extends React.Component {
              <br/> <br/>  
               
           <form onSubmit={this.handleSubmit}>
-           <p>
-             <label>Name:</label>&nbsp;&nbsp;
-            <input type="text" name="name" value={this.state.name} onChange={this.handleChange} placeholder="Length 2 to 30 letters" />
-           </p>
 
-           <p>
-             <label>Email:</label>&nbsp;&nbsp;
-             <input type="text" name="email" value={this.state.email} onChange={this.handleChange} placeholder="xxx@yyy.com" />
-           </p>
+            <table className="react-table-create">
+            
+            <tr>
+              <td>
+                 <label>Name:</label>
+             </td>
+            
+             <td>
+               <input className="react-input-text" type="text" name="name" value={this.state.name} onChange={this.handleChange} placeholder="Length 2 to 30 letters" />
+             </td>
+           </tr>
 
-           <p>
-              <label>Age:</label>&nbsp;&nbsp;&nbsp;&nbsp;
-             <input type="text" name="age" value={this.state.age} onChange={this.handleChange} placeholder="Number from 18 to 125" />
-           </p>
+           <tr>
+              <td>
+             <label>Email:</label>
+             </td>
+             
+             <td>
+             <input className="react-input-text" type="text" name="email" value={this.state.email} onChange={this.handleChange} placeholder="xxx@yyy.com" />
+             </td>
+           </tr>
+            
+           <tr>
+              <td>
+              <label>Age:</label>
+              </td>
+             
+             <td>
+             <input className="react-input-text" type="text" name="age" value={this.state.age} onChange={this.handleChange} placeholder="Number from 18 to 125" />
+             </td>
+           </tr>
 
-           <p>
-             <input type="submit" value="Submit" />
-           </p>
-      
+           <tr>
+              <td colSpan="2">
+             <input style={{width: '75pt', backgroundColor: '#337ab7', color: 'white' }} type="submit" value="Submit" />
+             </td>
+           </tr>
+          </table>
+
            </form>
      
         </div>

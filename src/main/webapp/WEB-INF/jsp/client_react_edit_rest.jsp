@@ -17,33 +17,9 @@
 	<style>
 		.header-text { Color: Green; font-family: Verdana, sans-serif; font-size: 14pt}
 		.body-content { margin-left: 10pt; margin-right: 10pt; font-family: Verdana, sans-serif}
-
-
-         #title {
-                 text-align: center;
-                 font-family: Verdana, sans-serif;
-                }
-
-         #persons {
-                  text-align: center;
-                  font-family: "Verdana, sans-serif";
-                  font-size: 14pt;
-                  border-collapse: collapse;
-                  border: 3px solid #ddd;
-                  width: 100%;
-                  }
-
-         #persons td, #persons th {
-                   border: 1px solid #ddd;
-                   padding: 8px;
-                  }
-
-        #persons tr:nth-child(even){background-color: #f2f2f2;}
-
-        #persons tr:first-child {color: green; background-color:white }
-        #persons tr:first-child:hover {color: green; background-color: white; cursor:default;}
-
-        #persons tr:hover {background-color: #ddd; cursor: pointer;}
+                  
+        .react-table-edit { border-spacing: 10px; border-collapse: separate; }
+        .react-input-text {width:150pt;}
 
 	</style>
 

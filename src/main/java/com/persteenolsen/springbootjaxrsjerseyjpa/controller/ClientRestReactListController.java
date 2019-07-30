@@ -16,7 +16,7 @@ public class ClientRestReactListController {
 	@GetMapping("/clientrestreactlist")
 	public String clientrest(Map<String, Object> model) {
 
-		helloworld = "A List ReactJS client / Jersey RESTful Web API";
+		helloworld = "A ReactJS admin client / Jersey RESTful Web API";
 
 		model.put("messageclientreactlistrest", helloworld);
 				

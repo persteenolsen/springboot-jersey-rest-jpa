@@ -44,7 +44,10 @@
         #persons tr:first-child:hover {color: green; background-color: white; cursor:default;}
 
         #persons tr:hover {background-color: #ddd; cursor: pointer;}
-
+                
+        .react-button-edit { width: 75pt; background-color: #ec971f; color:white;}
+        .react-button-delete { width: 75pt; background-color: #d9534f; color:white;}
+       
 	</style>
 
 </head>
@@ -60,7 +63,7 @@
 	<div class="header-text" >${messageclientreactlistrest}</div>
     
     <br>
-    Getting the Persons by a ReactJS List client and the Jersey Rest Web API
+    Admin the Persons by a ReactJS List client and the Jersey Rest Web API
     <br><br>
     
 
@@ -75,7 +78,7 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
 
 
-   <script type="text/babel" src="react/getpersonslistreact.jsx" data-presets="es2015,react">
+   <script type="text/babel" src="react/listpersonsreact.jsx" data-presets="es2015,react">
    </script>
 
     
