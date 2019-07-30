@@ -35,18 +35,18 @@
 
          #persons td, #persons th {
                    border: 1px solid #ddd;
-                   padding: 8px;
+                   padding: 3px;
                   }
 
         #persons tr:nth-child(even){background-color: #f2f2f2;}
 
-        #persons tr:first-child {color: green; background-color:white }
-        #persons tr:first-child:hover {color: green; background-color: white; cursor:default;}
+        #persons thead {color: green; background-color:white }
+        #persons thead:hover {color: green; background-color: white; cursor:default;}
 
-        #persons tr:hover {background-color: #ddd; cursor: pointer;}
+        #persons tbody > tr:hover {background-color: #ddd; cursor: pointer;}
                 
-        .react-button-edit { width: 75pt; background-color: #ec971f; color:white;}
-        .react-button-delete { width: 75pt; background-color: #d9534f; color:white;}
+        .react-button-edit { width: 50pt; background-color: #ec971f; color:white;}
+        .react-button-delete { width: 50pt; background-color: #d9534f; color:white;}
        
 	</style>
 
@@ -78,7 +78,7 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
 
 
-   <script type="text/babel" src="react/adminpersonsreact.jsx" data-presets="es2015,react">
+   <script type="text/babel" src="react/listpersonsreact.jsx" data-presets="es2015,react">
    </script>
 
     
