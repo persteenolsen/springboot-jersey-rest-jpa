@@ -58,17 +58,19 @@ class TableRow extends React.Component {
    render() {
       return (
          <tr>
-                         
+                                  
             <td>{this.props.persons.name}</td>
             <td>{this.props.persons.email}</td>
             <td>{this.props.persons.age}</td>
-            
-           <td>
-               <button className="react-button-edit" onClick={this.editPerson.bind(this, this.props.persons.id)}>Edit</button>
-               <button className="react-button-delete" onClick={this.deletePerson.bind(this, this.props.persons.id)}>Delete</button>
-           </td>
-         
-         </tr>
+
+            <td>
+                         
+                <button className="react-button-edit" onClick={this.editPerson.bind(this, this.props.persons.id)}>Edit</button>
+                <button className="react-button-delete" onClick={this.deletePerson.bind(this, this.props.persons.id)}>Delete</button>
+        
+            </td>
+                      
+          </tr>
       )
    }
    

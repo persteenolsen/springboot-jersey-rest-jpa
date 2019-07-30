@@ -78,7 +78,7 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
 
 
-   <script type="text/babel" src="react/listpersonsreact.jsx" data-presets="es2015,react">
+   <script type="text/babel" src="react/adminpersonsreact.jsx" data-presets="es2015,react">
    </script>
 
     
