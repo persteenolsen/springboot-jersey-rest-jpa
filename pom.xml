@@ -22,49 +22,51 @@
 
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 	</properties>
 
 	<dependencies>
-
-         
-	 <!--For using JDBC datasource and for examble connect to a MySQL server - CRUD if wanted-->
-       <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
+    
+	
+	  <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+	  <!--PS: New version nedeed to be manually downloded while upgrading to Java 11 from Java 8-->
+      <dependency>
+         <groupId>mysql</groupId>
+         <artifactId>mysql-connector-java</artifactId>
+         <version>8.0.26</version>
         </dependency>
+
 	  
 		<!--NOTE: The exlusion of com.zaxxer - HikariCP is for using Tomcat JDBC instead.
-	 -It seems that there is an issue with Hikari and MS SQL jdbc on Azure (low memory)-->
+	   -It seems that there is an issue with Hikari and MySQL jdbc on Azure (low memory)-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 			
-			<exclusions>
+			 <exclusions>
               <exclusion>
                <groupId>com.zaxxer</groupId>
                 <artifactId>HikariCP</artifactId>
               </exclusion>
-            </exclusions>
+            </exclusions> 
 
 		</dependency>
 
-       <dependency>
+      <dependency>
          <groupId>org.apache.tomcat</groupId>
          <artifactId>tomcat-jdbc</artifactId>
        </dependency>
-
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-jersey</artifactId>
-		</dependency>
+	   
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-
+        
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jersey</artifactId>
+		</dependency>
         
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -93,7 +95,7 @@
 		<dependency>
 			<groupId>commons-validator</groupId>
 			<artifactId>commons-validator</artifactId>
-			<version>1.5.1</version>
+           <version>1.5.1</version>
 		</dependency>
 		
 		
