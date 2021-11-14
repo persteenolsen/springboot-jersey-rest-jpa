@@ -27,15 +27,6 @@
 
 	<dependencies>
     
-	
-	  <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-	  <!--PS: New version nedeed to be manually downloded while upgrading to Java 11 from Java 8-->
-      <dependency>
-         <groupId>mysql</groupId>
-         <artifactId>mysql-connector-java</artifactId>
-         <version>8.0.26</version>
-        </dependency>
-
 	  
 		<!--NOTE: The exlusion of com.zaxxer - HikariCP is for using Tomcat JDBC instead.
 	   -It seems that there is an issue with Hikari and MySQL jdbc on Azure (low memory)-->
@@ -52,9 +43,16 @@
 
 		</dependency>
 
+         <!--Note: Change with Java 11-->
+		 <dependency>
+          <groupId>mysql</groupId>
+           <artifactId>mysql-connector-java</artifactId>
+         </dependency>
+
       <dependency>
          <groupId>org.apache.tomcat</groupId>
          <artifactId>tomcat-jdbc</artifactId>
+		  <version>10.0.0</version>
        </dependency>
 	   
 		<dependency>
