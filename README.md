@@ -3,6 +3,7 @@ A Java Spring Boot JAX-RS Jersey Rest Web Application
 
 This Java Spring Boot JAX-RS Jersey REST JPA Web application was made by the following technology: 
 
+- Changing the MySQL DB 
 - Updated from Java 8 to Java 11
 - Visual Studio Code with the Microsoft Java Extension Pack
 - Microsoft Azure App Service with a Free App Service Plan for web hosting
