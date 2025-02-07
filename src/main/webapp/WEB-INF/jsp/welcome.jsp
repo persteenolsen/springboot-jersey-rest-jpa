@@ -45,7 +45,7 @@
 	<br><br>
 
 	<ul>
-    <li>Uptated: 04-10-2023</li>
+    <li>Uptated: 07-02-2025</li>
 	<li>Visual Studio Code with the Microsoft Java Extension Pack</li>	
 	<li>Microsoft Azure App Service with a Free App Service Plan for web hosting</li>
 	
