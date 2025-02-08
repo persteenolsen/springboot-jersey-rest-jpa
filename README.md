@@ -3,7 +3,7 @@ A Java Spring Boot 2 JAX-RS Jersey Rest Web Application
 
 This Java Spring Boot 2 JAX-RS Jersey REST JPA Web application was made by the following technology: 
 
-Last Updated: 07-02-2025
+Last Updated: 08-02-2025
 
 - MySQL
 - Updated from Java 8 to Java 11
